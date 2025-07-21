@@ -1,0 +1,92 @@
+/* Simple Button Counter */
+.btn-state {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+
+.btn-state:hover {
+  background-color: #2980b9;
+}
+
+h1 {
+  font-size: 24px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* Counter Container */
+.div-state {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Counter Text */
+.h1-state {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Increase Button */
+.button-state-increase {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #2ecc71;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-state-increase:hover {
+  background-color: #27ae60;
+}
+
+/* Decrease Button */
+.button-state-decrease {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  margin-right: 10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-state-decrease:hover {
+  background-color: #c0392b;
+}
+
+/* Reset Button */
+.button-state-reset {
+  padding: 10px 20px;
+  background-color: rgb(90, 164, 193);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-state-reset:hover {
+  background-color: #2980b9;
+}

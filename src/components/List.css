@@ -1,0 +1,37 @@
+.h1-list {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ul-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 400px;
+  background: #f4f6f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.li-list {
+  padding: 15px 20px;
+  margin: 8px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-size: 2rem;
+  color: #444;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+}
+
+.li-list:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  background-color: #e9f5ff;
+  color: #007acc;
+}

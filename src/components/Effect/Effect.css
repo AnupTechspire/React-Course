@@ -1,0 +1,62 @@
+.set-name,
+.set-email,
+.reset-name,
+.reset-email {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4f46e5; /* Indigo */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+.set-name:hover,
+.set-email:hover {
+  background-color: #4338ca; /* Darker indigo */
+}
+
+.set-name:active,
+.set-email:active {
+  background-color: #3730a3; /* Even darker on click */
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.form-input:focus {
+  border-color: #4f46e5; /* Indigo */
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+.form-note {
+  font-size: 14px;
+  color: #475569;
+  text-align: center;
+}

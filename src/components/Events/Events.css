@@ -1,0 +1,10 @@
+.button-event {
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    border-color: black;
+    cursor: pointer;
+    margin-top: 10px;
+}
