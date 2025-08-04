@@ -4,7 +4,7 @@ import "./Effect.css";
 
 // const FormEffect = () => {
 //   const navigate = useNavigate();
-//   const userType = "admin";
+//   const userType = "user";
 //   useEffect(() => {
 //     if (userType !== "admin") {
 //       navigate("/slider");
@@ -15,6 +15,34 @@ import "./Effect.css";
 // };
 
 // export default FormEffect;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // const FormEffect = () => {
 //   const [name, setName] = useState("");
@@ -60,6 +88,25 @@ import "./Effect.css";
 // };
 
 // export default FormEffect;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const FormEffect = () => {
   const [formData, setFormData] = useState({
