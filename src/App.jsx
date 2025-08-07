@@ -12,6 +12,7 @@ import FormEffect from "./components/Effect/Effect";
 import { Navigate } from "./components/Navigate";
 import Context from "./components/Context/Context";
 import Memo from "./components/Memo/Memo";
+import UserTable from "./components/Api/Users";
 
 // function App() {
 //   return (
@@ -37,6 +38,7 @@ function App() {
       {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Form />} />
+        <Route path="api" element={<UserTable />} />
         <Route path="slider" element={<Slider />} />
         <Route path="condition" element={<Condition />} />
         <Route path="component" element={<MainComponent />} />
